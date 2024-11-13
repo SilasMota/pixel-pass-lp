@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const navigation = [
-  { name: "Home", href: "/" },
+  { name: "Home", href: "/pixel-pass-lp/" },
   {
     name: "Steganography",
-    href: "/steganography-info",
+    href: "/pixel-pass-lp/steganography-info",
   },
-  { name: "Documentation", href: "/docs" },
+  { name: "Documentation", href: "/pixel-pass-lp/docs" },
 ];
 
 export default function Navbar() {
@@ -22,7 +22,7 @@ export default function Navbar() {
         className="flex sm:justify-between lg:justify-start p-6 lg:px-8"
       >
         <div className="flex">
-          <Link to="/" className="-m-1.5 p-1.5">
+          <Link to="/pixel-pass-lp/" className="-m-1.5 p-1.5">
             <span className="sr-only">Pixel Pass</span>
             <img alt="pixel-pass-logo" src={logo} className="h-12 w-auto" />
           </Link>

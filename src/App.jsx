@@ -9,9 +9,9 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/steganography-info" element={<SteganographyInfo />} />
-          <Route path="/docs" element={<Docs />}/>
+          <Route path="/pixel-pass-lp/*" element={<Home />} />
+          <Route path="/pixel-pass-lp/steganography-info" element={<SteganographyInfo />} />
+          <Route path="/pixel-pass-lp/docs" element={<Docs />}/>
         </Routes>
         <Footer />
       </Router>
