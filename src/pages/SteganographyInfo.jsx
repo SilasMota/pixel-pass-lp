@@ -4,7 +4,7 @@ export default function SteganographyInfo() {
   return (
     <div className=" bg-slate-700 min-h-44">
       <Navbar />
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 flex flex-col gap-3 items-center">
+      <div className="mx-auto max-w-2xl px-9 md:px-4 py-32 sm:py-48 lg:py-56 flex flex-col gap-3 items-center">
         <h2 className="mt-2 text-pretty text-4xl font-semibold mb-4">
           What is Steganography
         </h2>

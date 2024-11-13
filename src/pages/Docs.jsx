@@ -8,7 +8,7 @@ export default function Docs() {
   return (
     <div className=" bg-slate-700 min-h-44">
       <Navbar />
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 flex flex-col gap-3 ">
+      <div className="mx-auto max-w-2xl px-9 py-32 sm:py-48 lg:py-56 flex flex-col gap-3 ">
         <h2 className="mt-2 text-pretty text-2xl font-semibold mb-4">
           Providing Key for Encryption
         </h2>
